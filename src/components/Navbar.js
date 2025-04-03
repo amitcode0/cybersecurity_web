@@ -13,7 +13,7 @@ const Navbar = () => {
     >
       {/* Logo Section */}
       <div className="logo">
-        <span>🔐 amit prajapati12 34241</span>
+        <span>🔐CyberSafe Security</span>
       </div>
 
       {/* Navigation Links */}
