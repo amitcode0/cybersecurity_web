@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { motion } from "framer-motion";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"; // Import icons
 
 const Footer = () => {
   return (
@@ -21,21 +22,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗 GitHub
+            <FaGithub className="social-icon" /> GitHub
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗 LinkedIn
+            <FaLinkedin className="social-icon" /> LinkedIn
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗 Twitter
+            <FaTwitter className="social-icon" /> Twitter
           </a>
         </div>
       </div>
