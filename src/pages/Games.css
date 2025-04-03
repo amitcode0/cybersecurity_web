@@ -1,0 +1,26 @@
+.games-container {
+    text-align: center;
+    padding: 20px;
+    background: #0a192f;
+    color: white;
+    min-height: 100vh;
+}
+
+.games-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ffff;
+}
+
+.game-section {
+    background: #112240;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+h2 {
+    color: #ff007f;
+}
